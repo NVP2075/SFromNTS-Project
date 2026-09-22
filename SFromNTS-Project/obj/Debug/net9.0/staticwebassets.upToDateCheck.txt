@@ -1,6 +1,6 @@
-wwwroot\css\site.css
+wwwroot\css\auth-form.css
 wwwroot\favicon.ico
-wwwroot\js\site.js
+wwwroot\js\auth-form.js
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
@@ -61,9 +61,9 @@ wwwroot\lib\jquery\dist\jquery.slim.js
 wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
-C:\Users\nguye\source\repos\SFromNTS-Project\SFromNTS-Project\wwwroot\css\site.css
+C:\Users\nguye\source\repos\SFromNTS-Project\SFromNTS-Project\wwwroot\js\auth-form.js
 C:\Users\nguye\source\repos\SFromNTS-Project\SFromNTS-Project\wwwroot\favicon.ico
-C:\Users\nguye\source\repos\SFromNTS-Project\SFromNTS-Project\wwwroot\js\site.js
+C:\Users\nguye\source\repos\SFromNTS-Project\SFromNTS-Project\wwwroot\css\auth-form.css
 C:\Users\nguye\source\repos\SFromNTS-Project\SFromNTS-Project\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 C:\Users\nguye\source\repos\SFromNTS-Project\SFromNTS-Project\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
 C:\Users\nguye\source\repos\SFromNTS-Project\SFromNTS-Project\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css

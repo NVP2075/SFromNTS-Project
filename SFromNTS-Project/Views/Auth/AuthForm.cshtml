@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login and Sign-up</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link href="/css/auth-form.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="card">
+        <!-- Diagonal divider -->
+        <svg class="divider" viewBox="0 0 540 540" preserveAspectRatio="none">
+            <line x1="0" y1="0" x2="540" y2="540"
+                  stroke="rgba(200,180,255,0.20)" stroke-width="1" />
+        </svg>
+
+        <!-- Corner diamonds -->
+        <svg class="diamond diamond--tr" viewBox="0 0 10 10">
+            <rect x="5" y="0" width="7.07" height="7.07" rx="0.5"
+                  transform="rotate(45 5 5)"
+                  fill="none" stroke="#c9b8f0" stroke-width="1" opacity="0.4" />
+        </svg>
+        <svg class="diamond diamond--bl" viewBox="0 0 10 10">
+            <rect x="5" y="0" width="7.07" height="7.07" rx="0.5"
+                  transform="rotate(45 5 5)"
+                  fill="none" stroke="#a8d8d0" stroke-width="1" opacity="0.4" />
+        </svg>
+
+        <!-- Center dot -->
+        <div class="center-dot"></div>
+
+        <!-- ── SIGN UP panel (top-right triangle) ── -->
+        <div class="panel panel--signup" id="panel-signup">
+            <button class="toggle-btn btn-signup" id="btn-signup" onclick="toggle('signup')">
+                <span class="label">Sign Up</span>
+                <span class="sublabel">create account</span>
+            </button>
+
+            <form class="form-wrap form-signup" id="form-signup" onsubmit="handleSignup(event)">
+                <input type="text" name="name" placeholder="Full name" required />
+                <input type="email" name="email" placeholder="Email address" required />
+                <input type="password" name="password" placeholder="Password" required />
+                <input type="text" name="username" placeholder="Username" required />
+                <button type="submit" class="submit-btn submit-btn--purple">Create account</button>
+            </form>
+        </div>
+
+        <!-- ── LOGIN panel (bottom-left triangle) ── -->
+        <div class="panel panel--login" id="panel-login">
+            <button class="toggle-btn btn-login" id="btn-login" onclick="toggle('login')">
+                <span class="label">Login</span>
+                <span class="sublabel">welcome back</span>
+            </button>
+            <form class="form-wrap form-login" id="form-login" onsubmit="handleLogin(event)">
+                <button type="submit" class="login-by-Google login-by-Google--nofill">Đăng nhập bằng Google</button>
+                <p class="or-text">hoặc</p>
+                <input type="email" name="email" placeholder="Email address" required />
+                <input type="password" name="password" placeholder="Password" required />
+                <div class="extras">
+                    <label><input type="checkbox" /> Remember me</label>
+                    <button type="button" onclick="alert('Password reset coming soon!')">Forgot?</button>
+                </div>
+                <button type="submit" class="submit-btn submit-btn--teal">Sign in</button>
+            </form>
+        </div>
+
+    </div>
+    
+</body>
+</html>
+<script src="/js/auth-form.js"></script>

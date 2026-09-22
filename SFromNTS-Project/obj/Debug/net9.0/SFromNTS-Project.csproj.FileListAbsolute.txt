@@ -150,12 +150,8 @@ C:\Users\nguye\source\repos\SFromNTS-Project\SFromNTS-Project\obj\Debug\net9.0\S
 C:\Users\nguye\source\repos\SFromNTS-Project\SFromNTS-Project\obj\Debug\net9.0\rjimswa.dswa.cache.json
 C:\Users\nguye\source\repos\SFromNTS-Project\SFromNTS-Project\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
 C:\Users\nguye\source\repos\SFromNTS-Project\SFromNTS-Project\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
-C:\Users\nguye\source\repos\SFromNTS-Project\SFromNTS-Project\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\nguye\source\repos\SFromNTS-Project\SFromNTS-Project\obj\Debug\net9.0\scopedcss\bundle\SFromNTS-Project.styles.css
-C:\Users\nguye\source\repos\SFromNTS-Project\SFromNTS-Project\obj\Debug\net9.0\scopedcss\projectbundle\SFromNTS-Project.bundle.scp.css
-C:\Users\nguye\source\repos\SFromNTS-Project\SFromNTS-Project\obj\Debug\net9.0\compressed\vlhymjldbg-{0}-b9sayid5wm-b9sayid5wm.gz
 C:\Users\nguye\source\repos\SFromNTS-Project\SFromNTS-Project\obj\Debug\net9.0\compressed\1w1qb91iqd-{0}-61n19gt1b8-61n19gt1b8.gz
-C:\Users\nguye\source\repos\SFromNTS-Project\SFromNTS-Project\obj\Debug\net9.0\compressed\na9wv243af-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
 C:\Users\nguye\source\repos\SFromNTS-Project\SFromNTS-Project\obj\Debug\net9.0\compressed\h91yctdp91-{0}-bqjiyaj88i-bqjiyaj88i.gz
 C:\Users\nguye\source\repos\SFromNTS-Project\SFromNTS-Project\obj\Debug\net9.0\compressed\ksits76fdw-{0}-c2jlpeoesf-c2jlpeoesf.gz
 C:\Users\nguye\source\repos\SFromNTS-Project\SFromNTS-Project\obj\Debug\net9.0\compressed\yokvz0ekmd-{0}-erw9l3u2r3-erw9l3u2r3.gz
@@ -215,8 +211,6 @@ C:\Users\nguye\source\repos\SFromNTS-Project\SFromNTS-Project\obj\Debug\net9.0\c
 C:\Users\nguye\source\repos\SFromNTS-Project\SFromNTS-Project\obj\Debug\net9.0\compressed\5wf5ox4htu-{0}-muycvpuwrr-muycvpuwrr.gz
 C:\Users\nguye\source\repos\SFromNTS-Project\SFromNTS-Project\obj\Debug\net9.0\compressed\amnhu9dgra-{0}-87fc7y1x7t-87fc7y1x7t.gz
 C:\Users\nguye\source\repos\SFromNTS-Project\SFromNTS-Project\obj\Debug\net9.0\compressed\8723dvsa32-{0}-mlv21k5csn-mlv21k5csn.gz
-C:\Users\nguye\source\repos\SFromNTS-Project\SFromNTS-Project\obj\Debug\net9.0\compressed\rq7zbudgrc-{0}-5376glc20m-5376glc20m.gz
-C:\Users\nguye\source\repos\SFromNTS-Project\SFromNTS-Project\obj\Debug\net9.0\compressed\gfbm9vaaea-{0}-5376glc20m-5376glc20m.gz
 C:\Users\nguye\source\repos\SFromNTS-Project\SFromNTS-Project\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\nguye\source\repos\SFromNTS-Project\SFromNTS-Project\obj\Debug\net9.0\staticwebassets.build.json.cache
 C:\Users\nguye\source\repos\SFromNTS-Project\SFromNTS-Project\obj\Debug\net9.0\staticwebassets.development.json
@@ -229,3 +223,5 @@ C:\Users\nguye\source\repos\SFromNTS-Project\SFromNTS-Project\obj\Debug\net9.0\r
 C:\Users\nguye\source\repos\SFromNTS-Project\SFromNTS-Project\obj\Debug\net9.0\SFromNTS-Project.pdb
 C:\Users\nguye\source\repos\SFromNTS-Project\SFromNTS-Project\obj\Debug\net9.0\SFromNTS-Project.genruntimeconfig.cache
 C:\Users\nguye\source\repos\SFromNTS-Project\SFromNTS-Project\obj\Debug\net9.0\ref\SFromNTS-Project.dll
+C:\Users\nguye\source\repos\SFromNTS-Project\SFromNTS-Project\obj\Debug\net9.0\compressed\fdlsnihwlt-{0}-9m4hg1bo5h-9m4hg1bo5h.gz
+C:\Users\nguye\source\repos\SFromNTS-Project\SFromNTS-Project\obj\Debug\net9.0\compressed\kucw7s03hn-{0}-wu9cwszuo8-wu9cwszuo8.gz
