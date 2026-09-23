@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@800;900&family=Barlow:wght@300;400;500&display=swap"
           rel="stylesheet" />
-    <link href="/css/LoginAndSignupForm.css" rel="style" />
+    <link href="/css/LoginAndSignupForm.css" rel="stylesheet" />
 </head>
 <body>
 
@@ -66,11 +66,11 @@
                     <div class="fields">
                         <div>
                             <label class="field-label" for="signupName">Tên</label>
-                            <input type="text" id="signupName" placeholder="Nhập tên của bạn" />
-                            <label class="field-label" for="signupSurname">Họ</label>
-                            <input type="text" id="signupSurname" placeholder="Nhập họ của bạn" />
+                            <input type="text" id="signupName" placeholder="Nhập tên của bạn" required />
+                            <label class="field-label" for="signupSurname" >Họ</label>
+                            <input type="text" id="signupSurname" placeholder="Nhập họ của bạn" required />
                             <label class="field-label" for="signupDOB">Ngày Sinh</label>
-                            <input type="date" id="signupDOB" placeholder="dd/mm/yyyy" />
+                            <input type="date" id="signupDOB" placeholder="dd/mm/yyyy" required />
                             <label class="field-label" for="signupOcupation">Nghề nghiệp</label>
                             <select name="ocupation" id="signupOcupation">
                                 <option value="Sinh viên">Sinh viên</option>
@@ -80,11 +80,11 @@
                         </div>
                         <div>
                             <label class="field-label" for="signupEmail">Email</label>
-                            <input type="email" id="signupEmail" placeholder="your@email.com" />
+                            <input type="email" id="signupEmail" placeholder="your@email.com" required />
                         </div>
                         <div>
                             <label class="field-label" for="signupPass">Password</label>
-                            <input type="password" id="signupPass" placeholder="••••••••" />
+                            <input type="password" id="signupPass" placeholder="••••••••" required />
                         </div>
                         <div class="check-row">
                             <input type="checkbox" id="terms" />
@@ -110,9 +110,9 @@
     
 </body>
 </html>
-<script src="/js/LoginAndSignupForm.js"></script>
+<script src="~/js/LoginAndSignupForm.js"></script>
 
-@section Scripts {
+@* @section Scripts {
       $(document).ready(function SignUp(){
           $.ajax({
               type: "GET",
@@ -126,4 +126,4 @@
               }
           });
     })
-  }
+  } *@
