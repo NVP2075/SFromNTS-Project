@@ -14,6 +14,31 @@ namespace SFromNTS_Project.Controllers
         {
             return View();
         }
+        [HttpPost]
+        public IActionResult SignUp([FromBody]SignupInfo sUI )
+        {
+            if (!ModelState.IsValid)
+                return View(sUI);
+            var isExist = _context.UserAccounts.Any(u => u.Email == sUI.Email);
+            if (isExist)
+            {
+                ModelState.AddModelError("Email", "Email này đã có tài khoản sử dụng!");
+                return View(sUI);
+            }
+
+
+            UserAccount newUC = new UserAccount();
+            newUC.AccountName = sUI.AccountName;
+            newUC.HashedPassword = BCrypt.Net.BCrypt.HashPassword(sUI.Password);
+            newUC.CreateDate = DateTime.Now;
+            newUC.Email = sUI.Email;
+            newUC.AccountStatus = true;
+
+
+            _context.Add(newUC);
+            _context.SaveChanges();
+            return View();
+        }
       
     }
 }
