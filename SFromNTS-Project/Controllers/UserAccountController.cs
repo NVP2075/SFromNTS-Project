@@ -15,7 +15,7 @@ namespace SFromNTS_Project.Controllers
             return View();
         }
         [HttpPost]
-        public IActionResult SignUp([FromBody]SignupInfo sUI )
+        public IActionResult SignUp([FromBody]SignupInfo sUI ) //Nên tạo transaction để trainning
         {
             if (!ModelState.IsValid)
                 return Json(new { success = false, message = "Vui lòng điền đầy đủ thông tin!" });
@@ -33,8 +33,15 @@ namespace SFromNTS_Project.Controllers
             newUC.Email = sUI.Email;
             newUC.AccountStatus = true;
 
+            UserInformation newUI = new UserInformation();
+            newUI.UserId = newUC.UserId;
+            newUI.UserName = sUI.UserName;  
+            newUI.UserSurname = sUI.UserSurname;
+            newUI.DateOfBirth = sUI.DateOfBirth;
+            newUI.Occupation = sUI.Occupation;
 
             _context.Add(newUC);
+            _context.Add(newUI);
             _context.SaveChanges();
             return Json(new { success = true });
         }
