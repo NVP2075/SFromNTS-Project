@@ -225,3 +225,4 @@ C:\Users\nguye\source\repos\SFromNTS-Project\SFromNTS-Project\obj\Debug\net9.0\S
 C:\Users\nguye\source\repos\SFromNTS-Project\SFromNTS-Project\obj\Debug\net9.0\ref\SFromNTS-Project.dll
 C:\Users\nguye\source\repos\SFromNTS-Project\SFromNTS-Project\obj\Debug\net9.0\compressed\960k5izfyj-{0}-73anw6u609-73anw6u609.gz
 C:\Users\nguye\source\repos\SFromNTS-Project\SFromNTS-Project\obj\Debug\net9.0\compressed\kx1blealmg-{0}-4l8qm5emrw-4l8qm5emrw.gz
+C:\Users\nguye\source\repos\SFromNTS-Project\SFromNTS-Project\bin\Debug\net9.0\BCrypt-Net-Next.dll

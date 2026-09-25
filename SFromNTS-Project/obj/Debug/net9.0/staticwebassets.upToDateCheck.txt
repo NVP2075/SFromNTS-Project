@@ -1,6 +1,5 @@
 wwwroot\css\LoginAndSignupForm.css
 wwwroot\favicon.ico
-wwwroot\js\LoginAndSignupForm.js
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
@@ -61,9 +60,9 @@ wwwroot\lib\jquery\dist\jquery.slim.js
 wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
-C:\Users\nguye\source\repos\SFromNTS-Project\SFromNTS-Project\wwwroot\js\LoginAndSignupForm.js
-C:\Users\nguye\source\repos\SFromNTS-Project\SFromNTS-Project\wwwroot\favicon.ico
+wwwroot\js\LoginAndSignupForm.js
 C:\Users\nguye\source\repos\SFromNTS-Project\SFromNTS-Project\wwwroot\css\LoginAndSignupForm.css
+C:\Users\nguye\source\repos\SFromNTS-Project\SFromNTS-Project\wwwroot\favicon.ico
 C:\Users\nguye\source\repos\SFromNTS-Project\SFromNTS-Project\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 C:\Users\nguye\source\repos\SFromNTS-Project\SFromNTS-Project\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
 C:\Users\nguye\source\repos\SFromNTS-Project\SFromNTS-Project\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
@@ -123,3 +122,4 @@ C:\Users\nguye\source\repos\SFromNTS-Project\SFromNTS-Project\wwwroot\lib\jquery
 C:\Users\nguye\source\repos\SFromNTS-Project\SFromNTS-Project\wwwroot\lib\jquery\dist\jquery.slim.min.js
 C:\Users\nguye\source\repos\SFromNTS-Project\SFromNTS-Project\wwwroot\lib\jquery\dist\jquery.slim.min.map
 C:\Users\nguye\source\repos\SFromNTS-Project\SFromNTS-Project\wwwroot\lib\jquery\LICENSE.txt
+C:\Users\nguye\source\repos\SFromNTS-Project\SFromNTS-Project\wwwroot\js\LoginAndSignupForm.js
