@@ -167,6 +167,17 @@ body {
     text-transform: uppercase;
     margin-bottom: 6px;
 }
+.hoac {
+    text-align: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 800;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+    color: white;
+    margin: 10px;
+}
 
 #signupOcupation,
 input[type="text"],
@@ -215,6 +226,19 @@ input[type="password"] {
     font-weight: 800;
     letter-spacing: 0.16em;
     text-transform: uppercase;
+    cursor: pointer;
+    transition: background 200ms, transform 100ms;
+}
+.loginByGG {
+    margin-top: 24px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.82rem;
+    font-weight: 700;
+    letter-spacing: 0.16em;
     cursor: pointer;
     transition: background 200ms, transform 100ms;
 }

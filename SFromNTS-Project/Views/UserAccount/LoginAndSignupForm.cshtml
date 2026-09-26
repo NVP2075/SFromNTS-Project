@@ -15,6 +15,8 @@
         <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@800;900&family=Barlow:wght@300;400;500&display=swap"
               rel="stylesheet" />
         <link href="/css/LoginAndSignupForm.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
     </head>
     <body>
 
@@ -34,10 +36,12 @@
                     <div class="form-inner">
                         <div class="form-title">Login</div>
                         <div class="form-sub">Welcome back.</div>
+                        <button class="loginByGG">Đăng nhập bằng Google </button>
+                        <div class="hoac">hoặc</div>
                         <div class="fields">
                             <div>
-                                <label class="field-label" for="loginEmail">Email</label>
-                                <input type="email" id="loginEmail" placeholder="your@email.com" />
+                                <label class="field-label" for="loginUserAccount">Tên tài khoản</label>
+                                <input type="text" id="loginUserAccount" placeholder="Tên tài khoản" />
                             </div>
                             <div>
                                 <label class="field-label" for="loginPass">Password</label>
@@ -48,7 +52,7 @@
                                 <label for="remember">Remember me</label>
                             </div>
                         </div>
-                        <button class="btn">Sign In</button>
+                        <button class="btn" type="button" onclick="login()">Sign In</button>
                         <p class="forgot"><a href="#">Forgot password?</a></p>
                     </div>
                 </div>
@@ -73,9 +77,9 @@
                                 <label class="field-label" for="signupName">Tên</label>
                                 <input type="text" id="signupName" placeholder="Nhập tên của bạn" required />
                                 <label class="field-label" for="signupSurname" >Họ</label>
-                                <input type="text" id="signupSurname" placeholder="Nhập họ của bạn" required />
+                                <input type="text" id="signupSurname" placeholder="Nhập họ của bạn" required  />
                                 <label class="field-label" for="signupDOB">Ngày Sinh</label>
-                                <input type="date" id="signupDOB" placeholder="dd/mm/yyyy" required />
+                                <input type="date" id="signupDOB" placeholder="dd/mm/yyyy" required  />
                                 <label class="field-label" for="signupOcupation">Nghề nghiệp</label>
                                 <select name="ocupation" id="signupOcupation">
                                     <option value="Sinh viên">Sinh viên</option>
@@ -85,7 +89,7 @@
                             </div>
                             <div>
                                 <label class="field-label" for="signupEmail">Email</label>
-                                <input type="email" id="signupEmail" placeholder="your@email.com" required />
+                                <input type="email" id="signupEmail" placeholder="your@email.com" required  />
                             </div>
                             <div>
                                 <label class="field-label" for="signupAccountName">Tên tài khoản</label>
@@ -93,7 +97,7 @@
                             </div>
                             <div>
                                 <label class="field-label" for="signupPass">Password</label>
-                                <input type="password" id="signupPass" placeholder="••••••••" required />
+                                <input type="password" id="signupPass" placeholder="••••••••" required/>
                             </div>
                             <div class="check-row">
                                 <input type="checkbox" id="terms" />
@@ -102,7 +106,7 @@
                                 </label>
                             </div>
                         </div>
-                        <button class="btn" onclick="signUp()">Create Account</button>
+                        <button type="button" class="btn" onclick="signUp()">Create Account</button>
                     </div>
                 </div>
             </div>
@@ -123,39 +127,5 @@
         @section Scripts {
             
         }
-<script>
-    async function signUp() {
-        let termsConfirm = document.getElementById('terms');
-        let data = {
-            AccountName: document.getElementById('signupAccountName').value,
-            Email: document.getElementById('signupEmail').value,
-            Password: document.getElementById('signupPass').value,
-            Username: document.getElementById('signupName').value,
-            UserSurname: document.getElementById('signupSurname').value,
-            DateOfBirth: document.getElementById('signupDOB').value,
-            Occupation: document.getElementById('signupOcupation').value
-        };
-
-        if (!termsConfirm.checked) {
-            alert("Vui lòng chấp nhận điều khoản sử dụng!");
-        }
-        else {
-            let response = await fetch('/UserAccount/SignUp', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify(data)
-            });
-            let result = await response.json();
-
-            if (result && termsConfirm.checked) {
-                alert("Đăng ký thành công!");
-                window.location.href = '/UserAccount/LoginAndSignupForm';
-            }
-            else {
-                alert("Vui lòng điền đầy đủ thông tin!");
-            }
-        }
-    }
-</script>
 
       
