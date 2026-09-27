@@ -14,11 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SFromNTS-Project")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< HEAD
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+728b8a85fbbfbcb6bd51a641cbfcd3ea6f141448")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ec410f16898b215a21259490dbbaf7fae8788e30")]
->>>>>>> main
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a1f05d787adc7ed42d9e4c2d06a5acf47b5b46f3")]
 [assembly: System.Reflection.AssemblyProductAttribute("SFromNTS-Project")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SFromNTS-Project")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
