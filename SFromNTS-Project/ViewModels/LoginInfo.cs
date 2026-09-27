@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace SFromNTS_Project.Models
+namespace SFromNTS_Project.ViewModels
 {
     public class LoginInfo
     {

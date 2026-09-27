@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
-namespace SFromNTS_Project.Models
+namespace SFromNTS_Project.ViewModels
 {
     public class SignupInfo
     {

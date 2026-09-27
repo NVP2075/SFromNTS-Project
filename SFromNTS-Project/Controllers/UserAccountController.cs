@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SFromNTS_Project.Models;
+using SFromNTS_Project.ViewModels;
 
 namespace SFromNTS_Project.Controllers
 {
