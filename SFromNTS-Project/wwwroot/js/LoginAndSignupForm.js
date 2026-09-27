@@ -46,5 +46,84 @@ function openPanel(which) {
       }, 700);
     }, 200);
   }
-  
-  
+
+async function login() {
+    let AccountName = document.getElementById('loginUserAccount').value;
+    let Password = document.getElementById('loginPass').value;
+    let data = {
+        AccountName: AccountName,
+        Password: Password
+    }
+    if (AccountName == null || Password == null) {
+        alert("Vui lòng điền thông tin đăng nhập");
+        return;
+    }
+    else {
+        let response = await fetch('/UserAccount/Login', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(data)
+        });
+        let result = await response.json();
+
+        if (result.response == true) {
+            alert(result.message);
+            window.location.href = '/UserAccount/LoginAndSignupForm';
+        }
+        else {
+            alert(result.message);
+        }
+    }
+
+}
+async function signUp()
+{
+    let termsConfirm = document.getElementById('terms');
+    let AccountName = document.getElementById('signupAccountName').value;
+    let Email = document.getElementById('signupEmail').value;
+    let Password = document.getElementById('signupPass').value;
+    let Username = document.getElementById('signupName').value;
+    let UserSurname = document.getElementById('signupSurname').value;
+    let DateOfBirth = document.getElementById('signupDOB').value;
+    let Occupation = document.getElementById('signupOcupation').value;
+    let data = {
+        AccountName: AccountName,
+        Email: Email,
+        Password: Password,
+        Username: Username,
+        UserSurname: UserSurname,
+        DateOfBirth: DateOfBirth,
+        Occupation: Occupation
+    };
+
+   
+    if (AccountName == null || Email == null || Password == null || Username == null || UserSurname == null || DateOfBirth == null || Occupation == null) {
+        alert("Vui lòng điền đầy đủ thông tin")
+        return;
+    }
+    else {
+        if (!termsConfirm.checked) {
+            alert("Vui lòng chấp nhận điều khoản sử dụng!");
+            return;
+        }
+        else if (termsConfirm.checked) {
+            let response = await fetch('/UserAccount/SignUp', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(data)
+            });
+            let result = await response.json();
+
+            if (result.response==true && termsConfirm.checked) {
+                alert(result.message);
+                window.location.href = '/UserAccount/LoginAndSignupForm';
+            }
+            else {
+                alert(result.message);
+                window.location.href = '/UserAccount/LoginAndSignupForm';
+            }
+        }
+    }
+    
+}
+       
